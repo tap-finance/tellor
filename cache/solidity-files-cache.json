@@ -1,9 +1,9 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/Users/nicholasfett/Company/Code/dynamicNFT/contracts/DynamicNFT.sol": {
-      "lastModificationDate": 1659552516459,
-      "contentHash": "5d2fe6e619cbba0711b8e09e94ff485a",
+    "/Users/vicky/hackathon-eth/final/dynamicNFT/contracts/DynamicNFT.sol": {
+      "lastModificationDate": 1667728870931,
+      "contentHash": "dbb29120db567d3560e7a51e8bb608e2",
       "sourceName": "contracts/DynamicNFT.sol",
       "solcConfig": {
         "version": "0.8.9",
@@ -40,8 +40,45 @@
         "DynamicNFT"
       ]
     },
-    "/Users/nicholasfett/Company/Code/dynamicNFT/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol": {
-      "lastModificationDate": 1659462303942,
+    "/Users/vicky/hackathon-eth/final/dynamicNFT/node_modules/usingtellor/contracts/UsingTellor.sol": {
+      "lastModificationDate": 1667728797624,
+      "contentHash": "3f27d16492ebae1df6916733299cbf69",
+      "sourceName": "usingtellor/contracts/UsingTellor.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interface/ITellor.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.0"
+      ],
+      "artifacts": [
+        "UsingTellor"
+      ]
+    },
+    "/Users/vicky/hackathon-eth/final/dynamicNFT/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol": {
+      "lastModificationDate": 1667728795505,
       "contentHash": "79ff1a7eb801a525aa315fb7a679eede",
       "sourceName": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
       "solcConfig": {
@@ -83,8 +120,8 @@
         "ERC721"
       ]
     },
-    "/Users/nicholasfett/Company/Code/dynamicNFT/node_modules/@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol": {
-      "lastModificationDate": 1659462303949,
+    "/Users/vicky/hackathon-eth/final/dynamicNFT/node_modules/@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol": {
+      "lastModificationDate": 1667728795517,
       "contentHash": "8af32effd0536e2971ff8496812a5016",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
       "solcConfig": {
@@ -120,10 +157,10 @@
         "ERC721URIStorage"
       ]
     },
-    "/Users/nicholasfett/Company/Code/dynamicNFT/node_modules/usingtellor/contracts/UsingTellor.sol": {
-      "lastModificationDate": 1659461817864,
-      "contentHash": "3f27d16492ebae1df6916733299cbf69",
-      "sourceName": "usingtellor/contracts/UsingTellor.sol",
+    "/Users/vicky/hackathon-eth/final/dynamicNFT/node_modules/usingtellor/contracts/interface/ITellor.sol": {
+      "lastModificationDate": 1667728797623,
+      "contentHash": "a3b4c8769ca0e304626a3bdc1c084ae7",
+      "sourceName": "usingtellor/contracts/interface/ITellor.sol",
       "solcConfig": {
         "version": "0.8.9",
         "settings": {
@@ -147,55 +184,16 @@
           }
         }
       },
-      "imports": [
-        "./interface/ITellor.sol"
-      ],
+      "imports": [],
       "versionPragmas": [
         ">=0.8.0"
       ],
       "artifacts": [
-        "UsingTellor"
+        "ITellor"
       ]
     },
-    "/Users/nicholasfett/Company/Code/dynamicNFT/node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol": {
-      "lastModificationDate": 1659462304017,
-      "contentHash": "ec99d946db3685a3630554aa6055bd7f",
-      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
-      "solcConfig": {
-        "version": "0.8.9",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../../utils/introspection/IERC165.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IERC721"
-      ]
-    },
-    "/Users/nicholasfett/Company/Code/dynamicNFT/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
-      "lastModificationDate": 1659462304018,
+    "/Users/vicky/hackathon-eth/final/dynamicNFT/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
+      "lastModificationDate": 1667728795630,
       "contentHash": "c22d4395e33763de693fd440c6fd10e1",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
       "solcConfig": {
@@ -229,8 +227,8 @@
         "IERC721Receiver"
       ]
     },
-    "/Users/nicholasfett/Company/Code/dynamicNFT/node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol": {
-      "lastModificationDate": 1659462304017,
+    "/Users/vicky/hackathon-eth/final/dynamicNFT/node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol": {
+      "lastModificationDate": 1667728795630,
       "contentHash": "efbc0d15b80a74e34dbe8da0f3e879bb",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
       "solcConfig": {
@@ -266,10 +264,10 @@
         "IERC721Metadata"
       ]
     },
-    "/Users/nicholasfett/Company/Code/dynamicNFT/node_modules/@openzeppelin/contracts/utils/Address.sol": {
-      "lastModificationDate": 1659462303900,
-      "contentHash": "c476b3895a94798b88a4bb97399e6dfe",
-      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
+    "/Users/vicky/hackathon-eth/final/dynamicNFT/node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol": {
+      "lastModificationDate": 1667728795585,
+      "contentHash": "ec99d946db3685a3630554aa6055bd7f",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
       "solcConfig": {
         "version": "0.8.9",
         "settings": {
@@ -293,51 +291,18 @@
           }
         }
       },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.1"
+      "imports": [
+        "../../utils/introspection/IERC165.sol"
       ],
-      "artifacts": [
-        "Address"
-      ]
-    },
-    "/Users/nicholasfett/Company/Code/dynamicNFT/node_modules/@openzeppelin/contracts/utils/Context.sol": {
-      "lastModificationDate": 1659462303905,
-      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
-      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
-      "solcConfig": {
-        "version": "0.8.9",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
       "versionPragmas": [
         "^0.8.0"
       ],
       "artifacts": [
-        "Context"
+        "IERC721"
       ]
     },
-    "/Users/nicholasfett/Company/Code/dynamicNFT/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
-      "lastModificationDate": 1659462304039,
+    "/Users/vicky/hackathon-eth/final/dynamicNFT/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
+      "lastModificationDate": 1667728795698,
       "contentHash": "cf46906c4035f51639a22265066a9e78",
       "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
       "solcConfig": {
@@ -371,8 +336,78 @@
         "Strings"
       ]
     },
-    "/Users/nicholasfett/Company/Code/dynamicNFT/node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
-      "lastModificationDate": 1659462303927,
+    "/Users/vicky/hackathon-eth/final/dynamicNFT/node_modules/@openzeppelin/contracts/utils/Address.sol": {
+      "lastModificationDate": 1667728795310,
+      "contentHash": "c476b3895a94798b88a4bb97399e6dfe",
+      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.1"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "/Users/vicky/hackathon-eth/final/dynamicNFT/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1667728795321,
+      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/Users/vicky/hackathon-eth/final/dynamicNFT/node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
+      "lastModificationDate": 1667728795416,
       "contentHash": "0e7db055ce108f9da7bb6686a00287c0",
       "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
       "solcConfig": {
@@ -408,8 +443,8 @@
         "ERC165"
       ]
     },
-    "/Users/nicholasfett/Company/Code/dynamicNFT/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
-      "lastModificationDate": 1659462304002,
+    "/Users/vicky/hackathon-eth/final/dynamicNFT/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
+      "lastModificationDate": 1667728795580,
       "contentHash": "03e6768535ac4da0e9756f1d8a4a018a",
       "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
       "solcConfig": {
@@ -441,41 +476,6 @@
       ],
       "artifacts": [
         "IERC165"
-      ]
-    },
-    "/Users/nicholasfett/Company/Code/dynamicNFT/node_modules/usingtellor/contracts/interface/ITellor.sol": {
-      "lastModificationDate": 1659461817859,
-      "contentHash": "a3b4c8769ca0e304626a3bdc1c084ae7",
-      "sourceName": "usingtellor/contracts/interface/ITellor.sol",
-      "solcConfig": {
-        "version": "0.8.9",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.8.0"
-      ],
-      "artifacts": [
-        "ITellor"
       ]
     }
   }

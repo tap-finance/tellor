@@ -12,8 +12,8 @@ contract DynamicNFT is ERC721, ERC721URIStorage, UsingTellor {
     bytes32 public tellorID;
     uint256 public supply;
     mapping(uint256 => uint256) startPrices;
-    string constant public metadataURI_up = "ipfs://QmXstMbf412MGNnHxzAwSA1RC5vq8VbLF6MbvmZTzJ6BVj";
-    string constant public metadataURI_down = "ipfs://QmSNcAhadvadkHgukeXSmgmX6Q1G5yQXEVbAkiRGkvhbYK";
+    string constant public metadataURI_up = "ipfs://QmVwc6zwTWF2DK9Rh8Z7nrXCGuHGhiFEDsq69x2m9GHTUw";
+    string constant public metadataURI_down = "ipfs://QmdxFRux56EL6DRmZTYZkGdpuhTSKbJEm4Vfidq3iAq7Su";
 
     constructor(string memory tokenName,
         string memory symbol,

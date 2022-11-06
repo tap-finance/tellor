@@ -1,20 +1,20 @@
 {
-    "description": "Tellor Dynamic NFT - Down image", 
-    "external_url": "https://www.tellor.io", 
-    "image": "ipfs://QmR2zHcNhbM9ps7VQDoa5dHeHZnXzfYYGCma4nvfe6J6V7", 
-    "name": "themandalore",
-    "attributes":[
-        {
-          "trait_type": "Colour", 
-          "value": "Mixed"
-        }, 
-        {
-          "trait_type": "Coolness", 
-          "value": "A lot!"
-        }, 
-        {
-          "trait_type": "Token Standard", 
-          "value": "ERC721"
-        }
-      ]
-  }
+  "description": "This NFT proves that I have deployed an NFT on Ethereum Goerli", 
+  "external_url": "https://alchemy.com", 
+  "image": "ipfs://Qmbt4q1pTueiuBoqr11xK39NC6nNtTeK7hUSDHvCYoW39v", 
+  "name": "TAP",
+  "attributes": [
+    {
+      "trait_type": "Colour", 
+      "value": "Mixed"
+    }, 
+    {
+      "trait_type": "Coolness", 
+      "value": "A lot!"
+    }, 
+    {
+      "trait_type": "Token Standard", 
+      "value": "ERC721"
+    }
+  ]
+}
